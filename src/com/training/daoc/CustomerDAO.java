@@ -125,7 +125,7 @@ public class CustomerDAO implements DAO<Customer> {
 
 	@Override
 	public int delete(int key) {
-		Customer cust = null;
+		//Customer cust = null;
 		int rowdeleted = 0;
 		String sql = "delete from customer where custId=?";
 		try {
